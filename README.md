@@ -1,1 +1,1 @@
-# Project_INFOH415
+To import data please change in the /rasdaman/.json files your path to files and in the makefile

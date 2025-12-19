@@ -1,0 +1,22 @@
+{
+  "config": {
+    "service_url": "http://localhost:8080/rasdaman/ows",
+    "tmp_directory": "/tmp/",
+    "default_crs": "https://www.opengis.net/def/OGC/0/Index2D",
+    "mock": false,
+    "automated": false
+    },
+  "input": {
+    "coverage_id": "landsat_tiles_256_B4",
+    "paths": [
+      "/home/thomas/Documents/project_db/data/tiles_256/B4/*"
+          ]
+  },
+
+  "recipe": {
+    "name": "map_mosaic",
+    "options": {
+        "tiling": "ALIGNED [0:255,0:255]"
+          }
+  }
+}
